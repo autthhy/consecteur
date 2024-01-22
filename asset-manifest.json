@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/consecteur/static/css/main.c7608fba.css",
+    "main.js": "/consecteur/static/js/main.a9213a97.js",
+    "static/css/484.ca13bd9d.chunk.css": "/consecteur/static/css/484.ca13bd9d.chunk.css",
+    "static/js/484.a4df3222.chunk.js": "/consecteur/static/js/484.a4df3222.chunk.js",
+    "static/js/787.da9eb62f.chunk.js": "/consecteur/static/js/787.da9eb62f.chunk.js",
+    "static/js/173.65f01d63.chunk.js": "/consecteur/static/js/173.65f01d63.chunk.js",
+    "static/media/hobspot-loader.webp": "/consecteur/static/media/hobspot-loader.b653093eceea45b8803d.webp",
+    "index.html": "/consecteur/index.html",
+    "main.c7608fba.css.map": "/consecteur/static/css/main.c7608fba.css.map",
+    "main.a9213a97.js.map": "/consecteur/static/js/main.a9213a97.js.map",
+    "484.ca13bd9d.chunk.css.map": "/consecteur/static/css/484.ca13bd9d.chunk.css.map",
+    "484.a4df3222.chunk.js.map": "/consecteur/static/js/484.a4df3222.chunk.js.map",
+    "787.da9eb62f.chunk.js.map": "/consecteur/static/js/787.da9eb62f.chunk.js.map",
+    "173.65f01d63.chunk.js.map": "/consecteur/static/js/173.65f01d63.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7608fba.css",
+    "static/js/main.a9213a97.js"
+  ]
+}
