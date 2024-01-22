@@ -1,38 +1,170 @@
-.App {
+
+.wrappper{
+  width: 100vw;
+  height: 100vh;
+}
+
+.close{
+  font-weight: bolder;
+  font-size: 16px;
+  background-color: #f0c3c2;
+  border: 1px solid #c4a3a2;
+  padding: 3px;
+  border-radius: 50%;
+  color: #ae4443;
+  fill: 6px;
+  stroke: 10px;
+  stroke-width: 7em;
+  box-shadow: 2px 3px 3px #444;
+  margin-right: 8px;
+}
+
+.processing{
+  background: #009cde;
+  color: #fff;
+}
+
+.expired_session{
+  background-color: #d35351;
+  width: 350px;
+  text-align: center;
+  color: #fff;
+  padding: 15px 7px;
+  border-radius: 4px;
+  font-family: 'Open Sans', sans-serif;
+
+  font-size: 12px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 4rem;
+}
+
+.webmail_logo{
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.webmail_img{
+  height: 50px;
+}
+
+.log_in_form{
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid #000; */
+  height: 250px;
+  /* position: absolute; */
+}
+
+.forrmm{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.labels_for_inp{
+  color: #222;
+  font-size: 13.5px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.dddiiivvvccc{
+  /* margin: 0.7em auto; */
+  margin-top: 0.9em;
+  margin-bottom: 0.9em;
+}
+
+.same_cont_style{
+  /* border: 1px solid red; */
+  width: 300px;
+}
+
+.div_2_include_icon_in_input_{
+  /* border: 1px solid red; */
+  height: 35px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.inp_icon{
+  /* position: absolute; */
+  z-index: 888;
+  padding-left: 6px;
+  color: #bebebe;
+}
+
+.iinnppuutt{
+  width: 260px;
+  height: 32px;
+  outline: 0;
+  position: absolute;
+  padding-left: 2.5em;
+  border: 2px solid #bebebe;
+  border-radius: 4px;
+
+}
+
+.btn_sub{
+    background-color: #179bd7;
+    width: 100%;
+    font-size: 13px;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 600;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #095779;
+    border-radius: 4px;
+    transition: all .12s ease;
+    cursor: pointer;
+    color: #fff;
+}
+
+.langs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 4em;
+}
+
+.langs > p{
+    color: #293a4a;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    padding-left: 2em;
+    padding-right: 2em;
+    transition: all .12s ease;
+}
+
+.langs > p:hover{
+  color: #ff6c2c;
+}
+
+.btn_sub:hover{
+  background-color: #095779;
+}
+
+.copyright{
+  color: #3f4143;
+  font-family: verdana;
+  font-size: 7pt;
+  /* margin: 2cm 0 20px 0; */
+  padding-top: 30px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media (max-width: 480px) {
+  .expired_session{
+    margin-top: 1em;
+    width: 340px;
   }
 }
